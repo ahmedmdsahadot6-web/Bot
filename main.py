@@ -62,7 +62,7 @@ SMM_API_URL = "https://1xpanel.com/api/v2"
 # 🐘 PostgreSQL Database URL (Neon DB) - Updated here
 DATABASE_URL = os.environ.get(
     "DATABASE_URL", 
-    "postgresql://neondb_owner:npg_egAkd12VhaqU@ep-floral-forest-aya8lgyx-pooler.c-5.us-east-2.aws.neon.tech/neondb?sslmode=require&channel_binding=require"
+    "postgresql://neondb_owner:npg_7WGChNEH6Blu@ep-polished-hill-axcjt3ch-pooler.c-4.us-east-2.aws.neon.tech/neondb?sslmode=require&channel_binding=require"
 )
 
 def get_db():
